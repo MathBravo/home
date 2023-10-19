@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Dymp</title>
+    <link rel="shortcut icon" href="logo.png" type="imagem">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+
+
+
+
+
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="história.html">História</a></li>
+            <li><a href="personagens.html">Personagens</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+    <br><br><br><br><br><br><br>
+
+
+
+
+
+
+    <div class="wrapper">
+      <div class="slide-wrapper" data-slide="wrapper">
+          <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
+          <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+          <div class="slide-list" data-slide="list">
+              <div class="slide-item" data-slide="item" data-index="0">
+                  <div class="slide-content">
+                      <img class="slide-image" src="fnf.png" alt="Assassin's Creed" />
+                      <div class="slide-description">
+                          <h3></h3>
+                          <p></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="1">
+                  <div class="slide-content">
+                      <img class="slide-image" src="friday.jpg" alt="friday" />
+                      <div class="slide-description">
+                          <h3></h3>
+                          <p></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="2">
+                  <div class="slide-content">
+                      <img class="slide-image" src="gameplay.jpg" alt="" />
+                      <div class="slide-description">
+                          <h3></h3>
+                          <p></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="3">
+                  <div class="slide-content">
+                      <img class="slide-image" src="fnf2.jpg" alt="" />
+                      <div class="slide-description">
+                          <h3></h3>
+                          <p></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="4">
+                  <div class="slide-content">
+                      <img class="slide-image" src="logo.png" alt="" />
+                      <div class="slide-description">
+                          <h3></h3>
+                          <p></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="slide-controls" data-slide="controls-wrapper">
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br>
+    <button class="button2">Download</button>
+    <br><br><br><br><br><br><br>
+    
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Project Dymp</a></li>
+                        <li><a>Desenvolvimento de prototipo de MOD de Friday Night Funkin'</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Dymp</h4>
+                    <ul>
+                        <li><a href="#">Yuri Company</a></li>
+                        <li><a>Ajuda da desnvolvedora de sites web Yuri Company</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+
+<script src="script.js"></script>
+<script>
+  initSlider({
+      autoPlay: true,
+      startAtIndex: 0,
+      timeInterval: 2000
+  })
+</script>
+</body>
+</html>
